@@ -1,0 +1,25 @@
+{
+  "name": "gltf_tutorial",
+  "version": "1.0.0",
+  "description": "gltf viewer tutorial project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --devtool eval-source-map",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "gltf-webpack-loader": "^1.0.6",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  },
+  "dependencies": {
+    "babylonjs": "^5.21.0",
+    "babylonjs-loaders": "^5.21.0"
+  }
+}

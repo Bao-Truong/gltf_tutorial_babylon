@@ -6,6 +6,7 @@
 ## How to run
 ```bash
 npm install
+npm install babylonjs babylonjs-loaders --force  
 npm run start
 ```
 - visit: http://localhost:8080
